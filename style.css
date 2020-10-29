@@ -1,3 +1,40 @@
-.azul {
-  color: blue;
-}
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: black;
+            color: white
+        }
+
+        h1 {
+            color: green
+        }
+
+        h2 {
+            color: green
+        }
+
+        h3 {
+            color: green;
+        }
+
+        nav dt {
+            font-weight: bold;
+            margin-top: 200x;
+            margin-bottom: 200x;
+        }
+
+        li {
+            list-style-type: square;
+        }
+
+        nav dt:hover {
+            background-color: gray;
+        }
+
+        nav.horizontal dt {
+            width: 100% padding: 500px padding-top: 50px padding-0bottom: 50px;
+            display: inline;
+        }
+
+        dt.test {
+            color: green;
+        }
