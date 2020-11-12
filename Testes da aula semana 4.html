@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testes semana 3</title>
+    <style>
+        label {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Formulario inútil mas extremamente importantes </h1>
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" maxlength="100" placeholder="Daniel Orivaldo da Silva" autofocus>
+        <label for="coquinha?">Cocaquinha gelada aceitas? </label>
+        <input type="radio" id="coquinha?" name="coquinha?" value="Aceito">Aceito
+        <input type="radio" id="coquinha?" name="coquinha?" value="Nao">Nao obrigado
+        <label for="Lucknumber">Numero da Sorte:</label>
+        <input type="number" id="Lucknumber" name="Lucknumber" placeholder="4" size="2">
+        <label for="EouD?">Esquerda ou direita:</label>
+        <input type="range" id="EouD?" name="EouD?" min="1" max="2">
+        <label for="cor">Cor Favorita:</label>
+        <input type="color" id="cor" name="cor">
+        <fieldset>
+            <legend>
+                Instrumentos preferidos:
+            </legend>
+            <label for="Guitarra"><input type="checkbox" id="Guitarra" name="Guitarra">Guitarra</label>
+            <label for="Baixo"><input type="checkbox" id="Baixo" name="Baixo">Baixo</label>
+            <label for="Bateria"><input type="checkbox" id="Bateria" name="Bateria">Bateria</label>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Qual o melhor suco?
+            </legend>
+            <datalist id="Listasucos">
+            <option value="Laranja"></option>
+            <option value="Uva"></option>
+            <option value="Pessego"></option>
+            <option value="Abacaxi"></option>
+            <option value="Goiaba"></option>
+          </datalist>
+            <input type="text" id="Listasucos" name="Sucos" list="Listasucos">
+        </fieldset>
+        <label for="meme">Manda um meme</label>
+        <input type="file" accept="image/*">
+
+    </form>
+</body>
+
+</html>
